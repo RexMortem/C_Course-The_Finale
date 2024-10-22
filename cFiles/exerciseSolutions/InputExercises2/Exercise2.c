@@ -21,16 +21,24 @@ int requestInteger(char* str){
 int main(){
     int statPoints = 10; 
     int strength = -1;
+    int vitality = -1;
     int pointsRemaining; 
 
     while((strength < 0) || (strength > statPoints)){
         strength = requestInteger("Enter points to put into strength: ");
     }
 
-    pointsRemaining = statPoints - strength;
+    pointsRemaining = statPoints - strength; // now vitality must be taken from this
 
+    while((vitality < 0) || (vitality > pointsRemaining)){
+        vitality = requestInteger("Enter points to put into vitality: ");
+    }
+
+    pointsRemaining = pointsRemaining - vitality; 
+    
     printf("---Your Stats---\n");
     printf("Strength: %d \n", strength);
+    printf("Vitality: %d \n", vitality);
     printf("Remaining Points: %d \n", pointsRemaining);
 
     return 0;

@@ -262,7 +262,35 @@ int requestInteger(char* str){
 
 1) I am designing an RPG and I want to user to input how many points they wish to put into a stat. My RPG currently only has the **strength** stat. Design a program to ask user to enter how many points they wish to invest (and keep asking until they input a valid number of points); output their strength stat, and the number of points remaining.
 
+```c
+int statPoints = 10; 
+int strength = -1;
+int pointsRemaining; 
+
+// write code to allow the user to allocate points 
+```
+
 2) Extend this to also ask how many points they wish to enter into **vitality** afterwards. Output this stat in addition to strength and the number of points remaining. 
+
+3) Given an array of strings of stats, can you write a program to request the user to allocate points to all of them?
+
+```c
+int statPoints = 100; 
+int stats[5];
+char* statNames[] = {"Strength", "Vitality", "Agility", "Intelligence", "Charisma"};
+int pointsRemaining; 
+
+// write code to allow the user to allocate points 
+```
+
+It will help to use the **strcat** function inside of `<string.h>`, which you can use like so:
+
+```c
+char name[50] = "Edward ";
+strcat(name, "Denton");
+
+printf("%s\n", name); // Edward Denton 
+```
 
 ## <a name="GDB"> Debugging With GDB </a>
 
