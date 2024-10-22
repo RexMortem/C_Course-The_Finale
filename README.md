@@ -1,4 +1,4 @@
-# C Course Session 2
+# C Course Session 3
 
 A basic, and hopefully gentle, introduction to the C Programming Language.
 
