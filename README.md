@@ -2,7 +2,7 @@
 
 A basic, and hopefully gentle, introduction to the C Programming Language.
 
-This session focuses on input, multiple files, and producing full programs in C! 
+This session focuses on inputs and debugging in C!
 
 ## What is the C Course?
 
