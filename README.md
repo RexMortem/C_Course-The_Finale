@@ -1,3 +1,8 @@
+# DISCLAIMER
+This repository is NO LONGER maintained and not up-to-date!
+
+For the latest version, please go to [https://github.com/UWCS/C_Course-The_Finale](https://github.com/UWCS/C_Course-The_Finale).
+
 # C Course Session 3
 
 A basic, and hopefully gentle, introduction to the C Programming Language.
